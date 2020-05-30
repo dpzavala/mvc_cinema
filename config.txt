@@ -1,5 +1,0 @@
-user:dpz
-password:SqL12345
-host:localhost
-database:cine_db
-use_pure:True
