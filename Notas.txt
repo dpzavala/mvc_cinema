@@ -1,0 +1,23 @@
+Al inicio, si no se ha registrado ningun usuario en la base de datos, tenemos que descomentar 
+las dos líneas de código y comentar las otras que estan en la parte de controller en la funcion start, 
+de este modo tendremos acceso a todas las opciones y podemos agregar el primer usuario como
+administrador. Una vez que ya tenemos aunque sea un administrador registrado podemos poner el codigo como estaba antes.
+
+Para no alargar el video con todos los procesos basicos de información, ya tenia agregados por lo menos un elemento de
+cada tabla, la parte importante es mostrar cuando se compra un boleto, mostrando que no hay ninguno registrado previamente.
+
+Se muestra tambien que de acuerdo al tipo de usuario que inicia sesión, es el menu que va aparecer, dando opción solo a los
+administradores de poder manipular toda la información de la base de datos.
+
+
+Comentarios:
+
+El programa solo es una base, ya que como se puede apreciar no tiene complementos de apoyo en la visualización, como en la parte
+de los boletos, aunque pide información, no necesariamente se tienen que pedir todos esos datos y en lugar de mostrar solo números
+se puden crear vistas en SQL para mostrar los detalles con la tabla relacionada, ejemplo, en lugar de mostrar el ID de la peicula se
+puede mostrar el titulo, pero eso ya seria un extra.
+
+El código esta basado en e proyecto anterior de colección de películas, así que tiene similitud en algunos aspectos.
+
+Por último, el video no lo podía subir y por cuestiones locales no le pude agregar audio, por eso adjunto este archivo de texto para
+dar una explicación breve de la demostración del video.
