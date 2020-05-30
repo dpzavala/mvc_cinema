@@ -116,9 +116,8 @@ class View:
 		print('Sipnosis:', record[4])
 		print('Formato:', record[5])
 		print('Idioma:', record[6])
-		print('Fecha Lanzamiento:', record[7])
-		print('Director:', record[8])
-		print('Actores:', record[9])
+		print('Director:', record[7])
+		print('Actores:', record[8])
 
 	def show_pelicula_header(self, header):
 		print(header.center(48,'*'))
